@@ -14,6 +14,7 @@ require(['jquery','window'],function($,w){
             y:50,
             hasCloseBtn:true,
             skinClassName:"window_skin_a",
+            text4AlertBtn:"ok"
         });
     });
 });

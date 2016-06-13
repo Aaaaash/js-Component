@@ -8,7 +8,8 @@ define(['jquery'],function(){
             handler4AlertBtn:null,
             hasCloseBtn:false,
             skinClassName:null,
-            handler4CloseBtn:null
+            handler4CloseBtn:null,
+            text4AlertBtn:"确定"
         }
     };
     Window.prototype={
@@ -18,7 +19,7 @@ define(['jquery'],function(){
                     '<div class="window_boundingBox">'+
                         '<div class="window_header">'+CFG.title+'</div>'+
                         '<div class="window_body">'+CFG.content+'</div>'+
-                        '<div class="window_footer"><input type="button" value="确定" class="window_alertBtn"/></div>'+
+                        '<div class="window_footer"><input type="button" value="'+CFG.text4AlertBtn+'" class="window_alertBtn"/></div>'+
                     '</div>'
                 );
                 var btn=boundingBox.find('.window_alertBtn');
