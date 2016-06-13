@@ -1,2 +1,3 @@
 # js-Component
-使用require实现基本的自定义弹窗组件
+原生的alert弹窗会阻塞页面的运行，而自定义弹窗则不会有这种影响
+这个小demo使用requireJS框架来完成简单的自定义弹窗组件
