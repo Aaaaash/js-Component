@@ -45,7 +45,6 @@ define(['widget','jquery','jqueryUI'],function(widget,$,$UI){
                 this.boundingBox.append('<span class="window_closeBtn"></span>');
             };
             this.boundingBox.appendTo(document.body);
-
         },
         bindUI:function(){
             var that=this;
