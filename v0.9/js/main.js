@@ -25,8 +25,8 @@ require(['jquery','window'],function($,w){
             width:300,
             height:150,
             y:50,
-            text4ConfirmBtn:"是",
-            text4CancelBtn:"否",
+            text4ConfirmBtn:"确定",
+            text4CancelBtn:"取消",
             dragHandle:".window_header",
             // hasCloseBtn:true
         }).on("confirm",function(){
