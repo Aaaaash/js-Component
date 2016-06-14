@@ -16,7 +16,8 @@ define(['widget','jquery','jqueryUI'],function(widget,$,$UI){
             text4ConfirmBtn:"确定",
             text4CancelBtn:"取消",
             handler4ConfirmBtn:null,
-            handler4CancleBtn:null
+            handler4CancleBtn:null,
+
         };
     };
     Window.prototype=$.extend({},new widget.Widget(),{
@@ -106,7 +107,9 @@ define(['widget','jquery','jqueryUI'],function(widget,$,$UI){
                 this.render();
                 return this;
         },
-        prompt:function(cfg){},
+        prompt:function(cfg){
+
+        },
     });
     return {
         Window:Window
