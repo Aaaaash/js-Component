@@ -1,4 +1,4 @@
-require(['jquery','jqueryUI','window'],function($,$UI,w){
+require(['jquery','window'],function($,w){
     $('#a').click(function(){
         var win=new w.Window();
         win.alert({
