@@ -29,3 +29,6 @@ v0.8版<br/>
 
 v0.9版<br/>
   增加confirm弹窗
+
+v1.0版<br/>
+  增加通用组件common
